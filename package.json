@@ -1,0 +1,21 @@
+{
+  "name": "eleventy-playground",
+  "version": "1.0.0",
+  "description": "5th attempt for correct installation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "deploy": "gh-pages -d _site"
+
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
